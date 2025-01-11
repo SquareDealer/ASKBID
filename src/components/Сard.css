@@ -1,0 +1,48 @@
+.card {
+  padding: 8px;
+  max-width: 180px;
+  text-align: center;
+  font-family: 'Inter', sans-serif; /* Устанавливаем шрифт Inter для всех элементов */
+  text-align: left;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.card .details {
+  margin-top: 8px;
+}
+
+.card .brand {
+  font-size: 24px; /* Размер 24пт */
+  font-weight: bold; /* Толщина шрифта bold */
+  color: black; /* Цвет текста черный */
+  margin: 0;
+}
+
+.card .model {
+  font-size: 20px; /* Размер 20пт */
+  font-weight: 400; /* Толщина шрифта regular */
+  color: #474747; /* Цвет текста серый */
+  margin: 4px 0;
+}
+
+.card .price {
+  font-size: 20px; /* Размер 16пт */
+  font-weight: 500; /* Толщина шрифта medium */
+  color: #FF6A00; /* Цвет текста оранжевый */
+  margin: 6px 0;
+}
+
+.cards-container {
+  display: grid;
+  margin: 0 auto;
+  padding-top: 64px;
+  max-width: fit-content;
+  grid-template-columns: repeat(4, 1fr); /* 4 колонки одинаковой ширины */
+  gap: 8px; /* Отступы между карточками */
+
+}
