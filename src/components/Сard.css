@@ -14,6 +14,8 @@
 
 .card .details {
   margin-top: 8px;
+  width: 70%;
+  max-width: 70%;
 }
 
 .card .brand {

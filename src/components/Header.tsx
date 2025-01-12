@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Header.css"
 import SearchBar from './SearchBar';
+import WalletConnectButton from './WalletConnectButton';
 
 type HeaderProps = {
     onSearch: (query: string) => void;
@@ -12,7 +13,7 @@ type HeaderProps = {
       <header className="header">
         <h1 className='logo'>ASK&BID</h1>
         <SearchBar onSearch={onSearch} />
-        <div></div>
+        <WalletConnectButton></WalletConnectButton>
       </header>
     );
   };

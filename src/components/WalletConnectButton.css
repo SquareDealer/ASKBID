@@ -1,0 +1,16 @@
+.wallet-btn {
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: #FF6A00;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.address-text {
+    font-family: 'Inter', sans-serif;
+    color: rgb(58, 58, 58);
+    font-weight: 500;
+}
