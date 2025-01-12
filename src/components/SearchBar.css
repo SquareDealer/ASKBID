@@ -7,13 +7,11 @@
   }
   
   .input {
-    border: none; /* Убираем границу */
+    border: black solid 1px; /* Убираем границу */
     outline: none; /* Убираем обводку при фокусе */
     padding: 20px 20px; /* Внутренний отступ */
     font-size: 20px; /* Размер шрифта */
     flex: 1; /* Заполнение оставшегося пространства */
-    background-color: #EBEBEB;
-    border-radius: 20px;
   }
   
   .button {

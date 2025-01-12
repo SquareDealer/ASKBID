@@ -1,12 +1,21 @@
 .header {
+    position: sticky;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 70px 12px 70px;
+    border: rgb(153, 153, 153) solid 1px ;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    z-index: 1000; /* Убедитесь, что значение выше остальных элементов */
+    background-color: white;
+    width: 100vw;
 }
 
+
 .logo {
+    padding-left: 50px;
     font-family: 'Inter', sans-serif;
     font-size: 48px;
     font-weight: 900;

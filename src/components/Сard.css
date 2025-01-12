@@ -1,15 +1,17 @@
 .card {
   padding: 8px;
-  max-width: 180px;
-  text-align: center;
-  font-family: 'Inter', sans-serif; /* Устанавливаем шрифт Inter для всех элементов */
+  font-family: 'Roboto', sans-serif;
   text-align: left;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Лёгкая тень при наведении */
 }
 
 .card img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
+  width: 201px;
+  height: 245px;
 }
 
 .card .details {
@@ -19,23 +21,23 @@
 }
 
 .card .brand {
-  font-size: 24px; /* Размер 24пт */
+  font-size: 14px; /* Размер 24пт */
   font-weight: bold; /* Толщина шрифта bold */
   color: black; /* Цвет текста черный */
   margin: 0;
 }
 
 .card .model {
-  font-size: 20px; /* Размер 20пт */
-  font-weight: 400; /* Толщина шрифта regular */
+  font-size: 12px; /* Размер 20пт */
+  font-weight: light; /* Толщина шрифта regular */
   color: #474747; /* Цвет текста серый */
   margin: 4px 0;
 }
 
 .card .price {
-  font-size: 20px; /* Размер 16пт */
-  font-weight: 500; /* Толщина шрифта medium */
-  color: #FF6A00; /* Цвет текста оранжевый */
+  font-family: 'Roboto Mono', monospace;
+  font-size: 12px; /* Размер 16пт */
+  font-weight: regular; /* Толщина шрифта medium */
   margin: 6px 0;
 }
 

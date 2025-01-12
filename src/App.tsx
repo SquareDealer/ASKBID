@@ -12,22 +12,16 @@ const App: React.FC = () => {
   };
 
   const cards = [
-    { brand: 'Supreme', model: 'Black Pants', price: 18000, image: '/assets/images/image.png' },
-    { brand: 'Nike', model: 'Air Max 270', price: 12000, image: '/assets/images/image 2.png' },
-    { brand: 'Adidas', model: 'Ultra Boost', price: 15000, image: '/assets/images/image3.png' },
-    { brand: 'Supreme', model: 'Ultra Boost', price: 15000, image: '/assets/images/image4.png' },
-    { brand: 'Supreme', model: 'Black Pants', price: 18000, image: '/assets/images/image.png' },
-    { brand: 'Nike', model: 'Air Max 270', price: 12000, image: '/assets/images/image 2.png' },
-    { brand: 'Adidas', model: 'Ultra Boost', price: 15000, image: '/assets/images/image3.png' },
-    { brand: 'Supreme', model: 'Ultra Boost', price: 15000, image: '/assets/images/image4.png' },
-    { brand: 'Supreme', model: 'Black Pants', price: 18000, image: '/assets/images/image.png' },
-    { brand: 'Nike', model: 'Air Max 270', price: 12000, image: '/assets/images/image 2.png' },
-    { brand: 'Adidas', model: 'Ultra Boost', price: 15000, image: '/assets/images/image3.png' },
-    { brand: 'Supreme', model: 'Ultra Boost', price: 15000, image: '/assets/images/image4.png' },
-    { brand: 'Supreme', model: 'Black Pants', price: 18000, image: '/assets/images/image.png' },
-    { brand: 'Nike', model: 'Air Max 270', price: 12000, image: '/assets/images/image 2.png' },
-    { brand: 'Adidas', model: 'Ultra Boost', price: 15000, image: '/assets/images/image3.png' },
-    { brand: 'Supreme', model: 'Ultra Boost', price: 15000, image: '/assets/images/image4.png' },
+    { brand: 'SUPREME', model: 'Black Pants', price: 18000, image: '/assets/images/image1.png' },
+    { brand: 'NIKE', model: 'Air Max 270', price: 12000, image: '/assets/images/image1.png' },
+    { brand: 'ADIDAS', model: 'Ultra Boost', price: 15000, image: '/assets/images/image1.png' },
+    { brand: 'SUPREME', model: 'Black Pants', price: 18000, image: '/assets/images/image1.png' },
+    { brand: 'NIKE', model: 'Air Max 270', price: 12000, image: '/assets/images/image1.png' },
+    { brand: 'ADIDAS', model: 'Ultra Boost', price: 15000, image: '/assets/images/image1.png' },
+    { brand: 'SUPREME', model: 'Black Pants', price: 18000, image: '/assets/images/image1.png' },
+    { brand: 'NIKE', model: 'Air Max 270', price: 12000, image: '/assets/images/image1.png' },
+    { brand: 'ADIDAS', model: 'Ultra Boost', price: 15000, image: '/assets/images/image1.png' },
+  
   ];
 
   const filteredCards = cards.filter((card) =>
