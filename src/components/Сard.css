@@ -39,6 +39,10 @@
   margin: 6px 0;
 }
 
+.card-footer {
+  margin: 0;
+}
+
 .cards-container {
   display: grid;
   margin: 0 auto;

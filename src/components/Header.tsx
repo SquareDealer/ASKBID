@@ -13,7 +13,9 @@ type HeaderProps = {
       <header className="header">
         <h1 className='logo'>ASK&BID</h1>
         <SearchBar onSearch={onSearch} />
-        <WalletConnectButton></WalletConnectButton>
+        <div className='auth-container'>
+          <WalletConnectButton></WalletConnectButton>
+        </div>
       </header>
     );
   };
